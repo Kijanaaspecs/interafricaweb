@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http=equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Products Page using HTML, CSS and Javascript</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                <img src="C:\Users\Admin\Interafrica soccer academy 1.png">
+                <h2>InterAfrica<span class="danger"> Soccer Academy</span>
+                 </h2>
+                 </div>
+                 <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                 </div>
+            </div>
+            <div class="sidebar">
+                <a href="dashboard.html">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="products.html" class="active">
+                    <span class="material-icons-sharp">shopping_cart</span>
+                    <h3>Products</h3>
+                </a> 
+                <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Analytics</h3>
+                </a> 
+                <a href="messages.html">
+                    <span class="material-icons-sharp">message</span>
+                    <h3>Messages</h3>
+                    <span class="message-count">NEW</span>
+                </a> 
+                <a href="#">
+                    <span class="material-icons-sharp">report_problem</span>
+                    <h3>Report</h3>
+                </a> 
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a> 
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Inventory</h3>
+                </a> 
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Log out</h3>
+                </a>
+            </div>
+        </aside>
+        <!----------------END OF ASIDE----------------------->
+        <main>
+            <h1>Products</h1>
+    
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="searchbar">
+                <input type="text" placeholder="Search item">
+                <span class="material-icons-sharp">search</span>
+
+                </div>
+            <div class="products">
+                <div class="header">
+                    <h2 class="heading">Shopping Menu</h2>
+                    <h5 class="action">Remove All</h5>
+                </div>
+                <div class="cart-items">
+                    <div class="image-box">
+                        <img src="C:\Users\Admin\Desktop\chelsea1.png" style{{ height="120px/"}} />
+                        </div>
+                        <div class="about">
+                            <h2 class="detail">Chelsea Away Kit</h2>
+                            <h3 class="subtitle">2022/2023 Season</h3>
+                            <img class="pic1" src="C:\Users\Admin\Desktop\chelsealogo.png">
+                        </div>
+                        <div class="counter">
+                            <div class="btn">+</div>
+                            <div class="count">1</div>
+                            <div class="btn">-</div>
+                        </div>
+                            <div class="prices">
+                                <div class="amount">Ksh1999</div>
+                                <div class="save"><u>Save For Later</u></div>
+                                <div class="remove"><u>Remove</u></div>
+                            </div>
+                        </div>
+                        <div class="cart-items">
+                            <div class="image-box">
+                                <img src="C:\Users\Admin\Desktop\chelsea2.webp" style{{ height="120px/"}} />
+                                </div>
+                                <div class="about">
+                                    <h2 class="detail">Chelsea Home Kit</h2>
+                                    <h3 class="subtitle">2022/2023 Season</h3>
+                                    <img class="pic1" src="C:\Users\Admin\Desktop\chelsealogo.png">
+                                </div>
+                                <div class="counter">
+                                    <div class="btn">+</div>
+                                    <div class="count">2</div>
+                                    <div class="btn">-</div>
+                                </div>
+                                    <div class="prices">
+                                        <div class="amount">Ksh2599</div>
+                                        <div class="save"><u>Save For Later</u></div>
+                                        <div class="remove"><u>Remove</u></div>
+                                    </div>
+                                </div>
+                                <div class="cart-items">
+                                    <div class="image-box">
+                                        <img src="C:\Users\Admin\Desktop\goalkeeper1.webp" style{{ height="120px/"}} />
+                                        </div>
+                                        <div class="about">
+                                            <h2 class="detail">Chelsea Keeper Kit</h2>
+                                            <h3 class="subtitle">2022/2023 Season</h3>
+                                            <img class="pic1" src="C:\Users\Admin\Desktop\chelsealogo.png">
+                                        </div>
+                                        <div class="counter">
+                                            <div class="btn">+</div>
+                                            <div class="count">1</div>
+                                            <div class="btn">-</div>
+                                        </div>
+                                            <div class="prices">
+                                                <div class="amount">Ksh2599</div>
+                                                <div class="save"><u>Save For Later</u></div>
+                                                <div class="remove"><u>Remove</u></div>
+                                            </div>
+                                        </div>
+            </div>
+        </main>
+        <!--------------------------------------------------------END OF MAIN---------------------------------------------------->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Isaac</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="C:\Users\Admin\img1.jpg">
+                    </div>
+                </div>
+                </div>
+            <!----------------------------------END OF TOP-------------------------------------->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\manulogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Manchester United</b> have released their third kit</p>
+                            <small class="text-muted"> One week Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\liverpoollogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Liverpool</b> Kits for the 2022/2023 Season</p>
+                            <small class="text-muted">3 Weeks Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\mancitylogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Manchester City</b> Kits for the 2022/2023 Season</p>
+                            <small class="text-muted"> 4 Weeks Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\arsenallogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Arsenal</b> Starts on a High Note</p>
+                            <small class="text-muted">7 Hours Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\tottenhamlogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Tottenham Spurs</b> Release their third kit</p>
+                            <small class="text-muted"> A Week Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\westhamlogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>West ham</b> visit to Stamford Bridge</p>
+                            <small class="text-muted"> 1 Hour Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\southamptonlogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Southampton</b> Kits for the 2022/2023 Season</p>
+                            <small class="text-muted"> 2 Weeks Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Desktop\newcastlelogo.png">
+                        </div>
+                        <div class="message">
+                            <p><b>Newcastle</b> visit to Old Trafford</p>
+                            <small class="text-muted"> 3 Hours Ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-------------------------------------------END OF UPDATES----------------------------------------->
+
+    </div>
+<script src="C:\Users\Admin\index.js"></script>
+</body>
